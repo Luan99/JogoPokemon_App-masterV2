@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JogoPokemon_MainActivity">
+
+
+    <View
+        android:id="@+id/topoCor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/topo"
+        />
+    <View
+        android:layout_below="@id/topoCor"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/topo2"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/iv_pokemonjogoLogo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/pokemonlogo" />
+
+
+    <Button
+        android:layout_below="@+id/iv_pokemonjogoLogo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_Jogar"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Jogar"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_below="@+id/bt_Jogar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_Ranking"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Ranking"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_below="@+id/bt_Ranking"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_Sobre"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Sobre"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_below="@+id/bt_Sobre"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_Sair"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Sair"
+        android:textSize="25sp" />
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/topo2"
+        android:layout_above="@+id/rodape"
+        />
+    <View
+        android:id="@+id/rodape"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/topo"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
